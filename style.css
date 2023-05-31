@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: #333;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+  
+}
+
+.carousel-caption{
+  margin-bottom: 130px;
+    z-index: 1;
+  
+}
+
+.carousel-caption h5 {
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.carousel-caption p {
+    font-size: 18px;
+    line-height: 1.96;
+    width: 60%;
+    margin: auto;
+}
+
+.carousel-inner::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.navbar-nav a {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-brand {
+    color: #000;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.w-100{
+    height: 100vh;
+}
+/* ..................................about-section...................... */
+.about-img img{
+    height: 400px;
+}
+.about-text h2{
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.about-text p {
+    font-size: 18px;
+    width: 100%;
+}
+.about-text a{
+    padding: 10px 15px;
+    font-size: 18px;
+}
+/* <!-- ........................................Services..................... --> */
+.services p{
+ font-size: 15px;
+}
+.section-header h2{
+    margin-top: -130px;
+    font-weight: bold;
+    color: red;
+    text-decoration: underline;
+    font-size: 43px;
+}
+.services .services-P{
+    font-size: 18px;
+    font-weight: bold;
+}
+.services .card-body{
+    font-size: 45px;
+}
+.services .card :hover{
+    background-color: rgb(144, 142, 138);
+    color: black;
+}
+.services .card-title{
+    font-size: 30px;
+}
+/* ..........................................portfolio.......................... */
+.header-P h2{
+    margin-top: 10px;
+   font-weight: bold;
+    color: red;
+    text-decoration: underline;
+    font-size: 45px;
+}
+.portfolio-P{
+    font-size: 18px;
+    font-weight: bold;
+}
+.portfolio p{
+    font-size: 18px;
+   }
+   .portfolio h3{
+    font-size: 35px;
+   }
+/* .....................................team......................................... */
+.team h3{
+    font-size: 28px;
+}
+.team .card-text {
+    font-size: 15px;
+}
+.team i{
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.card-body:hover{
+    background: orange;
+}
+/* ......................................contact............................................. */
+.contact form{
+    border: 2px solid black;
+    background: rgb(232, 232, 246);
+}
+ .contact input{
+    font-size: 15px;
+    border:1px solid #333;
+}
+.contact  textarea{
+    font-size: 15px;
+    border:1px solid #333;
+}
+.contact a{
+    font-size: 15px;
+}
+
+
+/* ........................responsive-css........................... */
+@media(max-width:1048px){
+    html{
+        font-size: 80%;
+    }
+    .carousel-caption{
+        margin-bottom: 100px;
+      }
+}
+@media (min-width:767px) and(max-width:991px){
+    html{
+        font-size: 80%;
+    }
+    .carousel-caption{
+        margin-bottom: 100px;
+    }
+    .carousel-caption h5{
+     font-size: 39px;
+    }
+    .carousel-caption p{
+        font-size: 18px;
+        width:100%;
+       }
+       .about-text a ,.card a{
+        
+        padding: 10px 15px;
+        font-size: 18px;
+    }
+.img-area img{
+    width: 100%;
+}
+.portfolio .card{
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:768px){
+    html{
+        font-size: 55%;
+    }
+.navbar-nav{
+    text-align: center;
+    
+}
+.carousel-caption{
+    margin-bottom: 100px;
+  }
+  .carousel-caption h5{
+    font-size: 35px;
+   }
+ 
+.carousel-caption a{
+    padding: 10px 15px;
+    font-size: 15px;
+}
+.carousel-caption p{
+ width:100%;
+ line-height: 1.6;
+ font-size: 15px;
+ 
+}
+.about-text a ,.card a{
+    padding: 10px 15px;
+    font-size: 18px;
+}
+}
+@media(max-width:445px){
+    html{
+        font-size: 30%;
+    }
+    .carousel-caption{
+        margin-bottom: 30px;
+    }
+    .carousel-caption h5{
+     font-size: 32px;
+    }
+    .carousel-caption p{
+        font-size: 15px;
+        width:100%;
+       }
+       .carousel-caption a{
+        padding: 10px 15px;
+        font-size: 13px;
+    }
+    .about-text a ,.card a{
+        padding: 10px 15px;
+        font-size: 18px;
+       
+  
+    }
+}
